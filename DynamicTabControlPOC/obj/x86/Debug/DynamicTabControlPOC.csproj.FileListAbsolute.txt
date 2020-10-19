@@ -43,3 +43,5 @@ C:\Users\DeerK\source\repos\DynamicTabControlPOC\DynamicTabControlPOC\obj\x86\De
 C:\Users\DeerK\source\repos\DynamicTabControlPOC\DynamicTabControlPOC\obj\x86\Debug\DynamicTabControlPOC.csproj.CopyComplete
 C:\Users\DeerK\source\repos\DynamicTabControlPOC\DynamicTabControlPOC\obj\x86\Debug\DynamicTabControlPOC.exe
 C:\Users\DeerK\source\repos\DynamicTabControlPOC\DynamicTabControlPOC\obj\x86\Debug\DynamicTabControlPOC.pdb
+C:\Users\DeerK\source\repos\DynamicTabControlPOC\DynamicTabControlPOC\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\DeerK\source\repos\DynamicTabControlPOC\DynamicTabControlPOC\bin\Debug\Telerik.Windows.Controls.Input.xml
