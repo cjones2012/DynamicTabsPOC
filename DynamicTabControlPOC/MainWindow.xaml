@@ -1,0 +1,27 @@
+﻿<rxui:ReactiveWindow
+    xmlns:rxui="http://reactiveui.net"
+    x:Class="DynamicTabControlPOC.MainWindow"
+    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+    x:TypeArguments="vm:MainViewModel"
+    xmlns:vm="clr-namespace:DynamicTabControlPOC.ViewModels"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    WindowStyle="SingleBorderWindow"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <telerik:RadComboBox x:Name="LocationComboBox" Grid.Row="0" Grid.Column="0" EmptyText="Select a location" />
+        <telerik:RadComboBox x:Name="DriverComboBox" Grid.Row="0" Grid.Column="1" EmptyText="Select a driver" />
+        <rxui:ViewModelViewHost x:Name="TabControlViewModel" Grid.Row="1" Grid.ColumnSpan="3" Visibility="Hidden"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch" />
+    </Grid>
+</rxui:ReactiveWindow>
